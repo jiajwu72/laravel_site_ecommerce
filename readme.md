@@ -55,6 +55,7 @@ laravel-collective.com => composer require "laravelcollective/html":"^5.4.0"
 laravel-recipes.com
 
 <p align="center">
+  <img src="img/00.png">
   <img src="img/01.png">
   <img src="img/02.png">
   <img src="img/03.png">	

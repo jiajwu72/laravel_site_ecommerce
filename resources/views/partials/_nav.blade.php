@@ -17,7 +17,7 @@
                 <ul class="nav navbar-nav">
                     <li class="{{ Request::is('/') ? 'active' : ''}}"><a href="{{url('/')}}">Home <span class="sr-only">(current)</span></a></li>
                     <li class="{{ (Request::is('posts')) ? 'active' : ''}}"><a href="{{url('posts')}}">Sale</a></li>
-                    <li class="{{ Request::is('about') ? 'active' : ''}}"><a href="{{url('about')}}">About</a></li>
+                    <!--<li class="{{ Request::is('about') ? 'active' : ''}}"><a href="{{url('about')}}">About</a></li>-->
                     <li class="{{ Request::is('contact') ? 'active' : ''}}"><a href="{{url('contact')}}">Contact</a></li>
                 </ul>
                 {!! Form::open(array('method'=>'post', 'route' => 'search.store', 'data-parsley-validate' => '', 'class' => 'navbar-form navbar-left')) !!}

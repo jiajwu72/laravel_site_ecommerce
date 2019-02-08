@@ -6,7 +6,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-12">
-            <h1>Contact me</h1>
+            <h1>Contactez Nous</h1>
             <form action="{{ url('contact') }}" method='post'>
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group">
@@ -15,13 +15,13 @@
                 </div>
 
                 <div class="form-group">
-                    <label name="subject">Subject:</label>
+                    <label name="subject">Sujet:</label>
                     <input id="subject" name="subject" class="form-control">
                 </div>
 
                 <div class="form-group">
                     <!--<label name="message">Message:</label>-->
-                    <textarea name="message" id="message" class="message" cols="160" rows="30">Type your messages here....</textarea>
+                    <textarea name="message" id="message" class="message" cols="160" rows="30"></textarea>
                     <input type="submit" value="send message" class="btn btn-success">
                 </div>
             </form>

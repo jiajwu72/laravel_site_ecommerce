@@ -53,3 +53,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 http://parsleyjs.org/
 laravel-collective.com => composer require "laravelcollective/html":"^5.4.0"
 laravel-recipes.com
+
+<p align="center">
+  <img src="img/01" width="350" title="hover text">
+  <img src="img/02" width="350" title="hover text">
+  <img src="img/03" width="350" title="hover text">	
+  <img src="img/04" width="350" title="hover text">
+  <img src="img/05" width="350" title="hover text">
+  <img src="img/06" width="350" title="hover text">
+</p>

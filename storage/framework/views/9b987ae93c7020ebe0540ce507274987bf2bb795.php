@@ -17,7 +17,7 @@
                 <ul class="nav navbar-nav">
                     <li class="<?php echo e(Request::is('/') ? 'active' : ''); ?>"><a href="<?php echo e(url('/')); ?>">Home <span class="sr-only">(current)</span></a></li>
                     <li class="<?php echo e((Request::is('posts')) ? 'active' : ''); ?>"><a href="<?php echo e(url('posts')); ?>">Sale</a></li>
-                    <li class="<?php echo e(Request::is('about') ? 'active' : ''); ?>"><a href="<?php echo e(url('about')); ?>">About</a></li>
+                    <!--<li class="<?php echo e(Request::is('about') ? 'active' : ''); ?>"><a href="<?php echo e(url('about')); ?>">About</a></li>-->
                     <li class="<?php echo e(Request::is('contact') ? 'active' : ''); ?>"><a href="<?php echo e(url('contact')); ?>">Contact</a></li>
                 </ul>
                 <?php echo Form::open(array('method'=>'post', 'route' => 'search.store', 'data-parsley-validate' => '', 'class' => 'navbar-form navbar-left')); ?>
